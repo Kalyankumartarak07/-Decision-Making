@@ -10,3 +10,17 @@ Sample Input:
 8
 Sample Output:
 6 less than 8
+
+
+
+
+ANS:
+a = int(input())
+b = int(input())
+
+if a == b:
+    print("x and y are equal")
+elif a > b:
+    print(f"{a} greater than {b}")
+else:
+    print(f"{a} less than {b}")
