@@ -15,3 +15,25 @@ Sample Input:
 L3
 Sample Output:
 L1
+ANS:
+
+a = int(input())
+b = int(input())
+c = int(input())
+allocated_lab = input()
+
+if allocated_lab == "L1":
+    if b < c:
+        print("L2")
+    else:
+        print("L3")
+elif allocated_lab == "L2":
+    if a < c:
+        print("L1")
+    else:
+        print("L3")
+else:  # allocated_lab == "L3"
+    if a < b:
+        print("L1")
+    else:
+        print("L2")
