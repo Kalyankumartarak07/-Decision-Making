@@ -13,3 +13,15 @@ Sample Input:
 20
 Sample Output:
 L3
+ANS;
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a < b and a < c:
+    print("L1")
+elif b < a and b < c:
+    print("L2")
+else:
+    print("L3")
