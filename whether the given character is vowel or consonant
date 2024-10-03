@@ -9,3 +9,15 @@ e
 
 Sample Output:
 Vowel
+
+
+ANS:
+birth_year = int(input())
+current_year = int(input())
+
+age = current_year - birth_year
+
+if age < 0:
+    age += 100
+
+print(age)
