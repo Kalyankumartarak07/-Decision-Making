@@ -11,3 +11,15 @@ Sample Input:
 00
 Sample Output:
 38
+
+
+ANS:
+birth_year = int(input())
+current_year = int(input())
+
+age = current_year - birth_year
+
+if age < 0:
+    age += 100
+
+print(age)
